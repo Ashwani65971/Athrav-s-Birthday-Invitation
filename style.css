@@ -308,3 +308,23 @@ body
     object-fit: cover;
     filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
 }
+
+.front-page .clickBtn
+{
+    animation: clickAnim 2s linear infinite;
+}
+@keyframes clickAnim
+{
+    0%
+    {
+        transform: translateX(10px);
+    }
+    50%
+    {
+        transform: translateX(-10px);
+    }
+    100%
+    {
+        transform: translateX(10px);
+    }
+}
