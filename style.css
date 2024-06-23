@@ -430,4 +430,14 @@ body
 .whising-page .whising-page-text
 {
     line-height: 1.6;
+    scale: 0.95;
+}
+.whising-page .timeClass
+{
+    background-color: #FB9349;
+    border-radius: 35px;
+    padding: 3px 16px;
+    color: black;
+    width: fit-content;
+    margin: auto;
 }
